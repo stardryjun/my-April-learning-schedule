@@ -1,0 +1,26 @@
+[
+    {
+        "Name": "Alice",
+        "Grade": 7,
+        "Class": "Seven",
+        "Score": 10
+    },
+    {
+        "Name": "Bob",
+        "Grade": 7,
+        "Class": "Seven",
+        "Score": 9
+    },
+    {
+        "Name": "Charlie",
+        "Grade": 7,
+        "Class": "Seven",
+        "Score": 8
+    },
+    {
+        "Name": "Eve",
+        "Grade": 7,
+        "Class": "Seven",
+        "Score": 6
+    }
+]
