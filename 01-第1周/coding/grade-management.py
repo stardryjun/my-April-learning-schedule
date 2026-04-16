@@ -13,5 +13,5 @@ highest_score = max(student['Score'] for student in students)
 lowest_score = min(student['Score'] for student in students)
 pass_rate = sum(1 for student in students if student['Score'] >= 6) / len(students) * 100
 
-json.dump(students, open('01-第1周/students.json', 'w'), indent=4)
-students = json.load(open('01-第1周/students.json', 'r'))
+json.dump(students, open('01-第1周/coding/students.json', 'w'))
+students = json.load(open('01-第1周/coding/students.json', 'r'))
