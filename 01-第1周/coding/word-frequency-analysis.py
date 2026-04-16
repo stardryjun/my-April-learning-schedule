@@ -2,7 +2,7 @@ import re, json
 from collections import Counter
 
 # 读取文本内容
-with open('01-第1周/王小波作品大全集全15册.txt', 'r', encoding='utf-8') as file:
+with open('01-第1周/coding/王小波作品大全集全15册.txt', 'r', encoding='utf-8') as file:
     text = file.read()
 
 # 正则提取所有单词（忽略大小写）
