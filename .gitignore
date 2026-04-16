@@ -1,3 +1,4 @@
 # Ignore study blog notes
 *学习博客*.md
 *.DS_Store.DS_Store
+.DS_Store
