@@ -56,5 +56,6 @@ def SomeClass:
 `@Decorator`将`function`传给`Class.__init__(cls)`
 `self.cls = cls`保存了原类
 调用`function(*args)`实际上是调用了`Class.__call__(*args)`
-
-
+# 4.21
+## Q8: 使用闭包时，什么时候使用nonlocal
+如果需要修改外层函数作用域中的变量时，需要`nonlocal`
